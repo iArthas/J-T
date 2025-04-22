@@ -9,7 +9,7 @@ export default function NosotrosPage() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/IMG_1690.JPG?height=600&width=1920"
+            src="/IMG_1690.jpg?height=600&width=1920"
             alt="Equipo J&T"
             fill
             className="object-cover brightness-50"

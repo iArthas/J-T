@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const partners = [
-  "/aliados/ism.png",
+  "/aliados/ISM.png",
   "/aliados/lancaster.png",
   "/aliados/hpologo1.png",
   "/aliados/NUEVA-LIMA-LOGO.png",
@@ -9,10 +9,10 @@ const partners = [
   "/aliados/binariocontractorsac.png",
   "/aliados/megaplaza.png",
   "/aliados/mixercon.png",
-  "/aliados/exsa-logo.png",
-  "/aliados/logo-caraveli.png",
+  "/aliados/EXSA-Logo.png",
+  "/aliados/logo-Caraveli.png",
   "/aliados/geohidrac.png",
-  "/aliados/nexa-logo.png"
+  "/aliados/Nexa-Logo.png"
 ]
 
 export default function PartnersSection() {

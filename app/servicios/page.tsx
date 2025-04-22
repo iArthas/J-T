@@ -590,7 +590,7 @@ export default function ServiciosPage() {
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/servicios/bomba-sumergible.jpg?height=400&width=300"
+                  src="/servicios/bomba-sumergible.JPG?height=400&width=300"
                   alt="Electrobomba sumergible"
                   width={300}
                   height={400}
@@ -599,7 +599,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/servicios/bomba-sumergible2.jpg?height=400&width=300"
+                  src="/servicios/bomba-sumergible2.JPG?height=400&width=300"
                   alt="Instalación de bomba"
                   width={300}
                   height={400}
@@ -608,7 +608,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/servicios/bomba-sumergible3.jpg?height=400&width=300"
+                  src="/servicios/bomba-sumergible3.JPG?height=400&width=300"
                   alt="Mantenimiento de bomba"
                   width={300}
                   height={400}
@@ -617,7 +617,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/servicios/bomba-sumergible4.jpg?height=400&width=300"
+                  src="/servicios/bomba-sumergible4.JPG?height=400&width=300"
                   alt="Bomba en funcionamiento"
                   width={300}
                   height={400}
