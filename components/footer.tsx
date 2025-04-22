@@ -21,7 +21,7 @@ export default function Footer() {
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="mailto:info@herc.pe" className="hover:text-white/80">
+              <Link href="Jyt.perforaciones@gmail.com" className="hover:text-white/80">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </Link>
@@ -31,23 +31,23 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-bold">Servicios</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/servicios#electrico" className="hover:text-white/80">
-                  Servicios Eléctricos
+                <Link href="/servicios#pozos" className="hover:text-white/80">
+                  Perforación de pozos
                 </Link>
               </li>
               <li>
-                <Link href="/servicios#piscinas" className="hover:text-white/80">
-                  Sistemas para Piscinas
+                <Link href="/servicios#estudiodeaguas" className="hover:text-white/80">
+                  Detección de aguas subterráneas
                 </Link>
               </li>
               <li>
                 <Link href="/servicios#hidraulico" className="hover:text-white/80">
-                  Servicios Hidráulicos
+                  Mantenimiento de pozos
                 </Link>
               </li>
               <li>
                 <Link href="/servicios#pozos" className="hover:text-white/80">
-                  Perforación de Pozos
+                  Servicios eléctricos y más.
                 </Link>
               </li>
             </ul>
@@ -86,14 +86,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0" />
-                <Link href="tel:+51999999999" className="hover:text-white/80">
-                  +51 999 999 999
+                <Link href="tel:+51999479036" className="hover:text-white/80">
+                +51 999 479 036
                 </Link>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0" />
-                <Link href="mailto:info@jyt.pe" className="hover:text-white/80">
-                  info@jyt.pe
+                <Link href="mailto:Jyt.perforaciones@gmail.com" className="hover:text-white/80">
+                  Jyt.perforaciones@gmail.com
                 </Link>
               </li>
             </ul>

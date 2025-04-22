@@ -10,8 +10,8 @@ export default function ServiciosPage() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1920"
-            alt="Servicios HERC"
+            src="/nuestros-servicios.jpg?height=600&width=1920"
+            alt="Servicios J&T"
             fill
             className="object-cover brightness-50"
             priority
@@ -85,7 +85,7 @@ export default function ServiciosPage() {
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/perforacion1.jpg?height=400&width=300"
                   alt="Perforación Rotatoria"
                   width={300}
                   height={400}
@@ -94,7 +94,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/perforacion2.jpg?height=400&width=300"
                   alt="Torre de Percusión"
                   width={300}
                   height={400}
@@ -103,7 +103,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/perforacion3.jpg?height=400&width=300"
                   alt="Winch con trípode"
                   width={300}
                   height={400}
@@ -112,7 +112,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/perforacion4.jpg?height=400&width=300"
                   alt="Pozo tubular terminado"
                   width={300}
                   height={400}
@@ -138,7 +138,7 @@ export default function ServiciosPage() {
             <div className="order-2 lg:order-1">
               <div className="relative h-[400px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/servicios/deteccion-agua.png?height=800&width=600"
                   alt="Sondaje Eléctrico Vertical"
                   fill
                   className="object-cover"
@@ -254,7 +254,7 @@ export default function ServiciosPage() {
             </div>
             <div className="relative h-[400px] overflow-hidden rounded-lg">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/servicios/diamantina.jpg?height=800&width=600"
                 alt="Perforación diamantina"
                 fill
                 className="object-cover"
@@ -278,7 +278,7 @@ export default function ServiciosPage() {
             <div className="order-2 lg:order-1 grid gap-6 sm:grid-cols-2">
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/mantenimiento1.JPG?height=400&width=300"
                   alt="Limpieza de pozo"
                   width={300}
                   height={400}
@@ -287,7 +287,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/mantenimiento2.JPG?height=400&width=300"
                   alt="Desarenado de pozo"
                   width={300}
                   height={400}
@@ -296,7 +296,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/mantenimiento3.JPG?height=400&width=300"
                   alt="Rehabilitación de pozo"
                   width={300}
                   height={400}
@@ -305,7 +305,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/mantenimiento4.JPG?height=400&width=300"
                   alt="Mantenimiento preventivo"
                   width={300}
                   height={400}
@@ -430,7 +430,7 @@ export default function ServiciosPage() {
               </Button>
             </div>
             <div className="relative h-[400px] overflow-hidden rounded-lg">
-              <Image src="/placeholder.svg?height=800&width=600" alt="Prueba de aforo" fill className="object-cover" />
+              <Image src="/servicios/prueba-aforo.jpg?height=800&width=600" alt="Prueba de aforo" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -450,7 +450,7 @@ export default function ServiciosPage() {
             <div className="order-2 lg:order-1">
               <div className="relative h-[400px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/servicios/tablero-electrico.jpg?height=800&width=600"
                   alt="Tableros eléctricos"
                   fill
                   className="object-cover"
@@ -590,7 +590,7 @@ export default function ServiciosPage() {
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/bomba-sumergible.jpg?height=400&width=300"
                   alt="Electrobomba sumergible"
                   width={300}
                   height={400}
@@ -599,7 +599,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/bomba-sumergible2.jpg?height=400&width=300"
                   alt="Instalación de bomba"
                   width={300}
                   height={400}
@@ -608,7 +608,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/bomba-sumergible3.jpg?height=400&width=300"
                   alt="Mantenimiento de bomba"
                   width={300}
                   height={400}
@@ -617,7 +617,7 @@ export default function ServiciosPage() {
               </div>
               <div className="h-[200px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=300"
+                  src="/servicios/bomba-sumergible4.jpg?height=400&width=300"
                   alt="Bomba en funcionamiento"
                   width={300}
                   height={400}
@@ -643,7 +643,7 @@ export default function ServiciosPage() {
             <div className="order-2 lg:order-1">
               <div className="relative h-[400px] overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src="/servicios/inspeccion-camara.jpg?height=800&width=600"
                   alt="Inspección con cámara"
                   fill
                   className="object-cover"

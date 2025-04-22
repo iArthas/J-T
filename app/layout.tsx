@@ -9,7 +9,7 @@ import WhatsAppButton from "@/components/whatsapp-button"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "J&T | Servicios Eléctricos, Hidráulicos y Sistemas para Piscinas",
+  title: "J&T | Perforaciones",
   description:
     "Empresa peruana especializada en perforación de pozos tubulares, servicios eléctricos, hidráulicos y sistemas para piscinas. Soluciones integrales para empresas y particulares.",
   keywords:

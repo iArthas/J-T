@@ -52,7 +52,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex md:items-center md:gap-4">
-          <Link href="tel:+51999999999" className="flex items-center gap-2 text-sm font-medium text-primary">
+          <Link href="tel:+51999479036" className="flex items-center gap-2 text-sm font-medium text-primary">
             <Phone className="h-4 w-4" />
             <span>Llamar ahora</span>
           </Link>

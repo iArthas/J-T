@@ -71,8 +71,8 @@ export default function ContactoPage() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold">Teléfono</h3>
                 <p className="mb-4 text-muted-foreground">Llámanos para una atención inmediata</p>
-                <a href="tel:+51999999999" className="text-primary hover:underline">
-                  +51 999 999 999
+                <a href="tel:+51999479036" className="text-primary hover:underline">
+                  +51 999 479 036
                 </a>
               </CardContent>
             </Card>
@@ -84,8 +84,8 @@ export default function ContactoPage() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold">Email</h3>
                 <p className="mb-4 text-muted-foreground">Escríbenos para cualquier consulta</p>
-                <a href="mailto:info@herc.pe" className="text-primary hover:underline">
-                  info@herc.pe
+                <a href="mailto:Jyt.perforaciones@gmail com" className="text-primary hover:underline">
+                  Jyt.perforaciones@gmail.com
                 </a>
               </CardContent>
             </Card>
@@ -96,7 +96,8 @@ export default function ContactoPage() {
                   <MapPin className="h-6 w-6" />
                 </div>
                 <h3 className="mb-2 text-xl font-bold">Dirección</h3>
-                <p className="mb-4 text-muted-foreground">Visítanos en nuestra oficina</p>
+                <p className="mb-4 text-muted-foreground">Visítanos en nuestra oficina:</p>
+                <p className="mb-4 text-muted-foreground">Av. El Sol calle #4 Fundo los Tunales, Villa El Salvador, Lima</p>
                 <p>Lima, Perú</p>
               </CardContent>
             </Card>
@@ -190,14 +191,14 @@ export default function ContactoPage() {
               {/* Aquí iría un mapa, pero por ahora usamos una imagen placeholder */}
               <div className="h-full w-full bg-muted">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249744.03563090875!2d-77.1546581!3d-12.0463731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses!2spe!4v1650000000000!5m2!1ses!2spe"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1949.7315053530942!2d-76.97304536470064!3d-12.2168976880334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDEzJzAwLjgiUyA3NsKwNTgnMTguMyJX!5e0!3m2!1ses!2spe!4v1743633594392!5m2!1ses!2spe"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación de HERC"
+                  title="Ubicación de J&T"
                 ></iframe>
               </div>
             </div>

@@ -9,8 +9,8 @@ export default function NosotrosPage() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1920"
-            alt="Equipo HERC"
+            src="/IMG_1690.JPG?height=600&width=1920"
+            alt="Equipo J&T"
             fill
             className="object-cover brightness-50"
             priority
@@ -30,7 +30,7 @@ export default function NosotrosPage() {
         <div className="container">
           <div className="grid gap-12 lg:grid-cols-2">
             <div className="relative h-[400px] overflow-hidden rounded-lg sm:h-[500px]">
-              <Image src="/placeholder.svg?height=800&width=600" alt="Historia de HERC" fill className="object-cover" />
+              <Image src="/IMG_1433.jpg?height=800&width=600" alt="Historia de HERC" fill className="object-cover" />
             </div>
             <div>
               <h2 className="mb-6 text-3xl font-bold tracking-tight">Nuestra Historia</h2>
@@ -42,7 +42,7 @@ export default function NosotrosPage() {
                 Una empresa dedicada a la perforación, mantenimiento, rehabilitación de pozos destinados al aprovechamiento de agua subterránea, instalación de sistemas de bombeo y otros servicios técnico hidráulico.
                 </p>
                 <p>
-                Con más de 30 años de experiencia en el rubro, disponemos de una gama de conocimientos empíricos que avalan nuestro trabajo.
+                Con más de 10 años de experiencia en el rubro, disponemos de una gama de conocimientos empíricos que avalan nuestro trabajo.
                 </p>
                 <p>
                   Hoy en día, J&T se ha consolidado como una empresa líder en el sector, reconocida por su
@@ -172,7 +172,7 @@ export default function NosotrosPage() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-primary-foreground mx-auto">
                   <Users className="h-8 w-8" />
                 </div>
-                <h3 className="mb-2 text-4xl font-bold">+500</h3>
+                <h3 className="mb-2 text-4xl font-bold">+100</h3>
                 <p className="text-muted-foreground">Clientes satisfechos</p>
               </CardContent>
             </Card>
@@ -182,7 +182,7 @@ export default function NosotrosPage() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-primary-foreground mx-auto">
                   <Target className="h-8 w-8" />
                 </div>
-                <h3 className="mb-2 text-4xl font-bold">+1000</h3>
+                <h3 className="mb-2 text-4xl font-bold">+500</h3>
                 <p className="text-muted-foreground">Proyectos completados</p>
               </CardContent>
             </Card>
@@ -192,7 +192,7 @@ export default function NosotrosPage() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-primary-foreground mx-auto">
                   <Award className="h-8 w-8" />
                 </div>
-                <h3 className="mb-2 text-4xl font-bold">+20</h3>
+                <h3 className="mb-2 text-4xl font-bold">+10</h3>
                 <p className="text-muted-foreground">Profesionales en el equipo</p>
               </CardContent>
             </Card>

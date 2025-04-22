@@ -8,8 +8,8 @@ export default function GaleriaPage() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1920"
-            alt="Galería HERC"
+            src="/galeria/pozosdeagua.png?height=600&width=1920"
+            alt="Galería J&T"
             fill
             className="object-cover brightness-50"
             priority
@@ -18,8 +18,7 @@ export default function GaleriaPage() {
         <div className="container relative z-10 flex min-h-[400px] flex-col items-center justify-center py-20 text-center text-white">
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Galería de Proyectos</h1>
           <p className="mx-auto max-w-2xl text-lg text-white/90">
-            Conoce algunos de nuestros proyectos más destacados en servicios eléctricos, hidráulicos y sistemas para
-            piscinas.
+            Conoce algunos de nuestros proyectos más destacados. 
           </p>
         </div>
       </section>
@@ -31,19 +30,53 @@ export default function GaleriaPage() {
             <div className="mb-8 flex justify-center">
               <TabsList>
                 <TabsTrigger value="todos">Todos</TabsTrigger>
+                <TabsTrigger value="perforacion">Perforación</TabsTrigger>
                 <TabsTrigger value="electrico">Eléctrico</TabsTrigger>
-                <TabsTrigger value="piscinas">Piscinas</TabsTrigger>
-                <TabsTrigger value="hidraulico">Hidráulico</TabsTrigger>
+                <TabsTrigger value="deteccion">Detección de Agua</TabsTrigger>
               </TabsList>
             </div>
 
             <TabsContent value="todos">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item) => (
-                  <div key={item} className="overflow-hidden rounded-lg">
+                {[
+                  "/galeria/ayacucho1.jpg",
+                  "/galeria/ayacucho2.jpg",
+                  "/galeria/proyecto3.jpg",
+                  "/galeria/proyecto4.jpg",
+                  "/galeria/proyecto5.jpg",
+                  "/galeria/proyecto6.jpg",
+                  "/galeria/proyecto7.jpg",
+                  "/galeria/proyecto8.jpg",
+                  "/galeria/proyecto9.jpg",
+                  "/galeria/proyecto10.jpg",
+                  "/galeria/proyecto11.jpg",
+                  "/galeria/proyecto12.jpg"
+                ].map((src, index) => (
+                  <div key={index} className="overflow-hidden rounded-lg">
                     <Image
-                      src={`/placeholder.svg?height=300&width=400&text=Proyecto ${item}`}
-                      alt={`Proyecto ${item}`}
+                      src={src}
+                      alt={`Proyecto ${index + 1}`}
+                      width={400}
+                      height={300}
+                      className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
+                ))}
+              </div>
+            </TabsContent>
+
+            <TabsContent value="perforacion">
+              <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {[
+                  "/galeria/tenis2.png",
+                  "/galeria/tenis3.png",
+                  "/galeria/perforacion3.jpg",
+                  "/galeria/perforacion4.jpg"
+                ].map((src, index) => (
+                  <div key={index} className="overflow-hidden rounded-lg">
+                    <Image
+                      src={src}
+                      alt={`Proyecto Perforación ${index + 1}`}
                       width={400}
                       height={300}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
@@ -55,11 +88,16 @@ export default function GaleriaPage() {
 
             <TabsContent value="electrico">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {[1, 2, 3, 4].map((item) => (
-                  <div key={item} className="overflow-hidden rounded-lg">
+                {[
+                  "/galeria/electrico1.jpg",
+                  "/galeria/electrico2.jpg",
+                  "/galeria/electrico3.jpg",
+                  "/galeria/electrico4.jpg"
+                ].map((src, index) => (
+                  <div key={index} className="overflow-hidden rounded-lg">
                     <Image
-                      src={`/placeholder.svg?height=300&width=400&text=Eléctrico ${item}`}
-                      alt={`Proyecto Eléctrico ${item}`}
+                      src={src}
+                      alt={`Proyecto Eléctrico ${index + 1}`}
                       width={400}
                       height={300}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
@@ -69,29 +107,18 @@ export default function GaleriaPage() {
               </div>
             </TabsContent>
 
-            <TabsContent value="piscinas">
+            <TabsContent value="deteccion">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {[1, 2, 3, 4].map((item) => (
-                  <div key={item} className="overflow-hidden rounded-lg">
+                {[
+                  "/galeria/deteccion1.jpg",
+                  "/galeria/deteccion2.jpg",
+                  "/galeria/deteccion3.jpg",
+                  "/galeria/deteccion4.jpg"
+                ].map((src, index) => (
+                  <div key={index} className="overflow-hidden rounded-lg">
                     <Image
-                      src={`/placeholder.svg?height=300&width=400&text=Piscina ${item}`}
-                      alt={`Proyecto Piscina ${item}`}
-                      width={400}
-                      height={300}
-                      className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                    />
-                  </div>
-                ))}
-              </div>
-            </TabsContent>
-
-            <TabsContent value="hidraulico">
-              <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {[1, 2, 3, 4].map((item) => (
-                  <div key={item} className="overflow-hidden rounded-lg">
-                    <Image
-                      src={`/placeholder.svg?height=300&width=400&text=Hidráulico ${item}`}
-                      alt={`Proyecto Hidráulico ${item}`}
+                      src={src}
+                      alt={`Proyecto Detección ${index + 1}`}
                       width={400}
                       height={300}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
@@ -116,62 +143,47 @@ export default function GaleriaPage() {
           </div>
 
           <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
-                <Image
-                  src="/placeholder.svg?height=400&width=600&text=Proyecto Destacado 1"
-                  alt="Proyecto Destacado 1"
-                  width={600}
-                  height={400}
-                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                />
+            {[
+              {
+                src: "/galeria/destacado1.jpg",
+                titulo: "Perforación de Pozo Industrial",
+                ubicacion: "Lima, Perú | 2023",
+                descripcion:
+                  "Perforación de pozo tubular de 150 metros de profundidad para una planta industrial, incluyendo instalación de sistema de bombeo y conexiones eléctricas.",
+              },
+              {
+                src: "/galeria/destacado2.jpg",
+                titulo: "Sistema Eléctrico Comercial",
+                ubicacion: "Arequipa, Perú | 2022",
+                descripcion:
+                  "Diseño e instalación completa del sistema eléctrico para un centro comercial, incluyendo tableros, iluminación y sistemas de emergencia.",
+              },
+              {
+                src: "/galeria/destacado3.jpg",
+                titulo: "Piscina Resort Turístico",
+                ubicacion: "Cusco, Perú | 2024",
+                descripcion:
+                  "Construcción de piscina de lujo con sistema de recirculación automática, iluminación nocturna y revestimiento ecológico.",
+              },
+            ].map((proyecto, index) => (
+              <div key={index} className="flex flex-col">
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <Image
+                    src={proyecto.src}
+                    alt={proyecto.titulo}
+                    width={600}
+                    height={400}
+                    className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
+                <h3 className="mb-2 text-xl font-bold">{proyecto.titulo}</h3>
+                <p className="mb-2 text-sm text-primary">{proyecto.ubicacion}</p>
+                <p className="text-muted-foreground">{proyecto.descripcion}</p>
               </div>
-              <h3 className="mb-2 text-xl font-bold">Perforación de Pozo Industrial</h3>
-              <p className="mb-2 text-sm text-primary">Lima, Perú | 2023</p>
-              <p className="text-muted-foreground">
-                Perforación de pozo tubular de 150 metros de profundidad para una planta industrial, incluyendo
-                instalación de sistema de bombeo y conexiones eléctricas.
-              </p>
-            </div>
-
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
-                <Image
-                  src="/placeholder.svg?height=400&width=600&text=Proyecto Destacado 2"
-                  alt="Proyecto Destacado 2"
-                  width={600}
-                  height={400}
-                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-              <h3 className="mb-2 text-xl font-bold">Sistema Eléctrico Comercial</h3>
-              <p className="mb-2 text-sm text-primary">Arequipa, Perú | 2022</p>
-              <p className="text-muted-foreground">
-                Diseño e instalación completa del sistema eléctrico para un centro comercial, incluyendo tableros,
-                iluminación y sistemas de emergencia.
-              </p>
-            </div>
-
-            <div className="flex flex-col">
-              <div className="mb-4 overflow-hidden rounded-lg">
-                <Image
-                  src="/placeholder.svg?height=400&width=600&text=Proyecto Destacado 3"
-                  alt="Proyecto Destacado 3"
-                  width={600}
-                  height={400}
-                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
-              <h3 className="mb-2 text-xl font-bold">Piscina Resort Turístico</h3>
-              <p className="mb-2 text-sm text-primary">Cusco, Perú | 2023</p>
-              <p className="text-muted-foreground">
-                Diseño, construcción e instalación de sistemas para piscina de un resort turístico, incluyendo sistemas
-                de filtración, calentamiento y tratamiento de agua.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }

@@ -21,10 +21,10 @@ export default function Home() {
         </div>
         <div className="container relative z-10 flex min-h-[600px] flex-col items-center justify-center py-20 text-center text-white">
           <h1 className="mb-4 max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-            Soluciones integrales en servicios eléctricos e hidráulicos
+            Soluciones integrales en Perforaciones
           </h1>
           <p className="mb-8 max-w-2xl text-lg text-white/90 sm:text-xl">
-            Especialistas en perforación de pozos tubulares, servicios eléctricos, hidráulicos y sistemas para piscinas.
+            Especialistas en perforación de pozos tubulares, servicios eléctricos, hidráulicos y inspección con cámara para pozos profundos.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
@@ -55,7 +55,7 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/pozos-y-sondeos-nigran-experiencia.jpg?height=400&width=600"
                   alt="Perforación de Pozos"
                   width={600}
                   height={400}
@@ -80,7 +80,7 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/tableroselectricos.jpg?height=400&width=600"
                   alt="Servicios Eléctricos"
                   width={600}
                   height={400}
@@ -105,7 +105,7 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/detector-de-agua.jpg?weight=400&width=600"
                   alt="Estudios y Mantenimiento"
                   width={600}
                   height={400}
@@ -196,8 +196,8 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] overflow-hidden rounded-lg sm:h-[500px]">
               <Image
-                src="/placeholder.svg?height=800&width=600"
-                alt="Equipo HERC trabajando"
+                src="/porquelegirnos.jpg?height=800&width=500"
+                alt="Equipo J&T trabajando"
                 fill
                 className="object-cover"
               />
