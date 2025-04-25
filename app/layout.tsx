@@ -24,6 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        <link
+          rel="icon"
+          href="/logoJYT.png"
+          type="image/png"
+          sizes="48x48"  // Establece el tamaño en 48x48 píxeles
+        />
+    </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">

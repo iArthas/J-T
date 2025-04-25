@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react"
+import { Facebook, Instagram, Youtube, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -9,21 +9,25 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-bold">J&T</h3>
             <p className="mb-4 text-sm">
-              Empresa peruana especializada en perforación de pozos tubulares y servicios eléctricos, hidráulicos y de
-              sistemas para piscinas.
+              Empresa peruana especializada en perforación de pozos tubulares, estudios hidrogeológicos,
+              mantenimiento y pruebas de rendimiento.
             </p>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" className="hover:text-white/80">
+              <Link href="https://www.facebook.com/PerforacionesJyT" passHref legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer" className="hover:text-white/80 flex items-center gap-2">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
+                </a>
               </Link>
               <Link href="https://instagram.com" className="hover:text-white/80">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="Jyt.perforaciones@gmail.com" className="hover:text-white/80">
-                <Mail className="h-5 w-5" />
-                <span className="sr-only">Email</span>
+              <Link href="https://www.youtube.com/@jyt.perforaciones.de.pozos." passHref legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer" className="hover:text-white/80 flex items-center gap-2">
+                <Youtube className="h-5 w-5" />
+                <span className="sr-only">YouTube</span>
+                </a>
               </Link>
             </div>
           </div>
@@ -90,6 +94,7 @@ export default function Footer() {
                 +51 999 479 036
                 </Link>
               </li>
+              
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0" />
                 <Link href="mailto:Jyt.perforaciones@gmail.com" className="hover:text-white/80">

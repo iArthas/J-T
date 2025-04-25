@@ -123,23 +123,43 @@ export default function NosotrosPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4].map((member) => (
-              <div key={member} className="text-center">
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                nombre: "Tany Jayo Lescano",
+                cargo: "Gerente de Operaciones",
+                descripcion:
+                  "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes en gestión y ejecución operativa.",
+                imagen: "/equipo/tany.jpg",
+              },
+              {
+                nombre: "Jacson Enciso Ruiz",
+                cargo: "Gerente Técnico",
+                descripcion:
+                  "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes aplicadas a proyectos técnicos y de ingeniería.",
+                imagen: "/equipo/Jacson.jpg",
+              },
+              {
+                nombre: "Stefany Enciso Ruiz Conejo",
+                cargo: "Administrativo",
+                descripcion:
+                  "Profesional con amplia experiencia en el sector, especializada en soluciones innovadoras y eficientes en gestión administrativa y atención al cliente.",
+                imagen: "/equipo/Stefany.jpg",
+              },
+            ].map((miembro, index) => (
+              <div key={index} className="text-center">
                 <div className="mx-auto mb-4 h-48 w-48 overflow-hidden rounded-full">
                   <Image
-                    src={`/placeholder.svg?height=200&width=200&text=Miembro ${member}`}
-                    alt={`Miembro del equipo ${member}`}
+                    src={miembro.imagen}
+                    alt={`Foto de ${miembro.nombre}`}
                     width={200}
                     height={200}
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <h3 className="mb-1 text-xl font-bold">Nombre Apellido</h3>
-                <p className="mb-2 text-primary">Cargo / Especialidad</p>
-                <p className="text-sm text-muted-foreground">
-                  Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes.
-                </p>
+                <h3 className="mb-1 text-xl font-bold">{miembro.nombre}</h3>
+                <p className="mb-2 text-primary">{miembro.cargo}</p>
+                <p className="text-sm text-muted-foreground">{miembro.descripcion}</p>
               </div>
             ))}
           </div>
