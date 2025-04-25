@@ -130,21 +130,21 @@ export default function NosotrosPage() {
                 cargo: "Gerente de Operaciones",
                 descripcion:
                   "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes en gestión y ejecución operativa.",
-                imagen: "/equipo/tany.jpg",
+                imagen: "/equipo/icons8-mujer-de-negocios-100.png",
               },
               {
                 nombre: "Jacson Enciso Ruiz",
                 cargo: "Gerente Técnico",
                 descripcion:
                   "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes aplicadas a proyectos técnicos y de ingeniería.",
-                imagen: "/equipo/Jacson.jpg",
+                imagen: "/equipo/icons8-gerente-100.png",
               },
               {
                 nombre: "Stefany Enciso Ruiz Conejo",
                 cargo: "Administrativo",
                 descripcion:
                   "Profesional con amplia experiencia en el sector, especializada en soluciones innovadoras y eficientes en gestión administrativa y atención al cliente.",
-                imagen: "/equipo/Stefany.jpg",
+                imagen: "/equipo/icons8-mujer-de-negocios-100.png",
               },
             ].map((miembro, index) => (
               <div key={index} className="text-center">
