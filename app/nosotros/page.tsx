@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Award, Clock, Target, Users } from "lucide-react"
+import { Award, Clock, Target, Users, Briefcase, HardHat, ClipboardList } from "lucide-react"
 import Image from "next/image"
 
 export default function NosotrosPage() {
@@ -122,47 +122,40 @@ export default function NosotrosPage() {
               proyecto.
             </p>
           </div>
-
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                nombre: "Tany Jayo Lescano",
-                cargo: "Gerente de Operaciones",
-                descripcion:
-                  "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes en gestión y ejecución operativa.",
-                imagen: "/equipo/icons8-mujer-de-negocios-100.png",
-              },
-              {
-                nombre: "Jacson Enciso Ruiz",
-                cargo: "Gerente Técnico",
-                descripcion:
-                  "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes aplicadas a proyectos técnicos y de ingeniería.",
-                imagen: "/equipo/icons8-gerente-100.png",
-              },
-              {
-                nombre: "Stefany Enciso Ruiz Conejo",
-                cargo: "Administrativo",
-                descripcion:
-                  "Profesional con amplia experiencia en el sector, especializada en soluciones innovadoras y eficientes en gestión administrativa y atención al cliente.",
-                imagen: "/equipo/icons8-mujer-de-negocios-100.png",
-              },
-            ].map((miembro, index) => (
-              <div key={index} className="text-center">
-                <div className="mx-auto mb-4 h-48 w-48 overflow-hidden rounded-full">
-                  <Image
-                    src={miembro.imagen}
-                    alt={`Foto de ${miembro.nombre}`}
-                    width={200}
-                    height={200}
-                    className="h-full w-full object-cover"
-                  />
+              {[
+                {
+                  nombre: "Tany Jayo Lescano",
+                  cargo: "Gerente de Operaciones",
+                  descripcion:
+                    "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes en gestión y ejecución operativa.",
+                  icono: <Briefcase className="h-16 w-16 text-primary" />, // Ícono de maletín
+                },
+                {
+                  nombre: "Jacson Enciso Ruiz",
+                  cargo: "Gerente Técnico",
+                  descripcion:
+                    "Profesional con amplia experiencia en el sector, especializado en soluciones innovadoras y eficientes aplicadas a proyectos técnicos y de ingeniería.",
+                  icono: <HardHat className="h-16 w-16 text-primary" />, // Ícono de casco de obra
+                },
+                {
+                  nombre: "Stefany Enciso Ruiz Conejo",
+                  cargo: "Administrativo",
+                  descripcion:
+                    "Profesional con amplia experiencia en el sector, especializada en soluciones innovadoras y eficientes en gestión administrativa y atención al cliente.",
+                  icono: <ClipboardList className="h-16 w-16 text-primary" />, // Ícono de lista / administración
+                },
+                ].map((miembro, index) => (
+                <div key={index} className="text-center">
+                  <div className="mx-auto mb-4 flex h-32 w-32 items-center justify-center rounded-full bg-muted">
+                    {miembro.icono}
+                  </div>
+                  <h3 className="mb-1 text-xl font-bold">{miembro.nombre}</h3>
+                  <p className="mb-2 text-primary">{miembro.cargo}</p>
+                  <p className="text-sm text-muted-foreground">{miembro.descripcion}</p>
                 </div>
-                <h3 className="mb-1 text-xl font-bold">{miembro.nombre}</h3>
-                <p className="mb-2 text-primary">{miembro.cargo}</p>
-                <p className="text-sm text-muted-foreground">{miembro.descripcion}</p>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
         </div>
       </section>
 
