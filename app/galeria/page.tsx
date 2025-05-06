@@ -39,18 +39,29 @@ export default function GaleriaPage() {
             <TabsContent value="todos">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {[
-                  "/galeria/ayacucho1.jpg",
-                  "/galeria/ayacucho2.jpg",
-                  "/galeria/proyecto3.jpg",
-                  "/galeria/proyecto4.jpg",
-                  "/galeria/proyecto5.jpg",
-                  "/galeria/proyecto6.jpg",
-                  "/galeria/proyecto7.jpg",
-                  "/galeria/proyecto8.jpg",
-                  "/galeria/proyecto9.jpg",
-                  "/galeria/proyecto10.jpg",
-                  "/galeria/proyecto11.jpg",
-                  "/galeria/proyecto12.jpg"
+                  "/galeria/imagen1.jpg",
+                  "/galeria/imagen2.jpg",
+                  "/galeria/imagen3.jpg",
+                  "/galeria/imagen4.jpg",
+                  "/galeria/imagen5.jpg",
+                  "/galeria/imagen6.jpg",
+                  "/galeria/imagen7.jpg",
+                  "/galeria/imagen8.jpg",
+                  "/galeria/imagen9.jpg",
+                  "/galeria/imagen10.jpg",
+                  "/galeria/imagen11.jpg",
+                  "/galeria/imagen12.jpg",
+                  "/galeria/imagen13.jpg",
+                  "/galeria/imagen14.jpg",
+                  "/galeria/imagen16.jpg",
+                  "/galeria/imagen17.jpg",
+                  "/galeria/imagen18.jpg",
+                  "/galeria/imagen19.png",
+                  "/galeria/imagen20.png",
+                  "/galeria/imagen21.png",
+                  "/galeria/imagen22.png",
+                  "/galeria/imagen23.jpeg",
+                  "/galeria/imagen24.jpeg"
                 ].map((src, index) => (
                   <div key={index} className="overflow-hidden rounded-lg">
                     <Image
