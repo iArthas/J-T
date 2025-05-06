@@ -8,7 +8,7 @@ export default function GaleriaPage() {
       <section className="relative">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/galeria/pozosdeagua.PNG?height=600&width=1920"
+            src="/galeria/MANTENIMIENTO/mantenimiento2.jpg?height=600&width=1920"
             alt="Galería J&T"
             fill
             className="object-cover brightness-50"
@@ -31,37 +31,38 @@ export default function GaleriaPage() {
               <TabsList>
                 <TabsTrigger value="todos">Todos</TabsTrigger>
                 <TabsTrigger value="perforacion">Perforación</TabsTrigger>
-                <TabsTrigger value="electrico">Eléctrico</TabsTrigger>
-                <TabsTrigger value="deteccion">Detección de Agua</TabsTrigger>
+                <TabsTrigger value="electrico">Sondaje Eléctrico</TabsTrigger>
+                <TabsTrigger value="deteccion">Mantenimiento de Pozos</TabsTrigger>
               </TabsList>
             </div>
 
             <TabsContent value="todos">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {[
-                  "/galeria/imagen1.jpg",
-                  "/galeria/imagen2.jpg",
-                  "/galeria/imagen3.jpg",
-                  "/galeria/imagen4.jpg",
-                  "/galeria/imagen5.jpg",
-                  "/galeria/imagen6.jpg",
-                  "/galeria/imagen7.jpg",
-                  "/galeria/imagen8.jpg",
-                  "/galeria/imagen9.jpg",
-                  "/galeria/imagen10.jpg",
-                  "/galeria/imagen11.jpg",
-                  "/galeria/imagen12.jpg",
-                  "/galeria/imagen13.jpg",
-                  "/galeria/imagen14.jpg",
-                  "/galeria/imagen16.jpg",
-                  "/galeria/imagen17.jpg",
-                  "/galeria/imagen18.jpg",
-                  "/galeria/imagen19.png",
-                  "/galeria/imagen20.png",
-                  "/galeria/imagen21.png",
-                  "/galeria/imagen22.png",
-                  "/galeria/imagen23.jpeg",
-                  "/galeria/imagen24.jpeg"
+                  "/galeria/PERFORACION TUBULAR/perforacion2.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion3.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion4.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion1.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion7.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion6.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion5.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion8.jpeg",
+                  "/galeria/MANTENIMIENTO/mantenimiento2.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento3.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento1.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento4.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento5.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje2.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje3.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje5.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje6.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje7.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje8.png",
+                  "/galeria/PERFORACION TUBULAR/perforacion9.jpeg",
+                  "/galeria/PERFORACION TUBULAR/perforacion10.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje9.png",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje10.png",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje11.png"
                 ].map((src, index) => (
                   <div key={index} className="overflow-hidden rounded-lg">
                     <Image
@@ -79,10 +80,16 @@ export default function GaleriaPage() {
             <TabsContent value="perforacion">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {[
-                  "/galeria/tenis2.png",
-                  "/galeria/tenis3.png",
-                  "/galeria/perforacion3.jpg",
-                  "/galeria/perforacion4.jpg"
+                  "/galeria/PERFORACION TUBULAR/perforacion2.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion1.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion3.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion4.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion7.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion6.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion5.jpg",
+                  "/galeria/PERFORACION TUBULAR/perforacion8.jpeg",
+                  "/galeria/PERFORACION TUBULAR/perforacion9.jpeg",
+                  "/galeria/PERFORACION TUBULAR/perforacion10.jpg",
                 ].map((src, index) => (
                   <div key={index} className="overflow-hidden rounded-lg">
                     <Image
@@ -100,10 +107,17 @@ export default function GaleriaPage() {
             <TabsContent value="electrico">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {[
-                  "/galeria/electrico1.jpg",
-                  "/galeria/electrico2.jpg",
-                  "/galeria/electrico3.jpg",
-                  "/galeria/electrico4.jpg"
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje1.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje2.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje3.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje4.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje5.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje6.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje7.jpg",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje8.png",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje9.png",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje10.png",
+                  "/galeria/SONDAJE ELECTRICO VERTICCAL/sondaje11.png"
                 ].map((src, index) => (
                   <div key={index} className="overflow-hidden rounded-lg">
                     <Image
@@ -121,10 +135,11 @@ export default function GaleriaPage() {
             <TabsContent value="deteccion">
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 {[
-                  "/galeria/deteccion1.jpg",
-                  "/galeria/deteccion2.jpg",
-                  "/galeria/deteccion3.jpg",
-                  "/galeria/deteccion4.jpg"
+                  "/galeria/MANTENIMIENTO/mantenimiento2.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento3.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento1.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento4.jpg",
+                  "/galeria/MANTENIMIENTO/mantenimiento5.jpg"
                 ].map((src, index) => (
                   <div key={index} className="overflow-hidden rounded-lg">
                     <Image
@@ -142,7 +157,7 @@ export default function GaleriaPage() {
         </div>
       </section>
 
-      {/* Project Highlights */}
+      {/* Project Highlights
       <section className="bg-muted py-16 md:py-24">
         <div className="container">
           <div className="mb-12 text-center">
@@ -194,7 +209,7 @@ export default function GaleriaPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
