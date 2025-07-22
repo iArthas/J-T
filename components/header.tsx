@@ -26,13 +26,13 @@ export default function Header() {
       <div className="container flex items-center justify-between py-2">
         <Link href="/" className="flex items-center space-x-2">
         <Image
-  src="/JYTlogo-removebg-preview.png"
-  alt="HERC Logo"
-  width={180}
-  height={90}
-  layout="fixed"
-  className="w-auto h-20 md:h-24 lg:h-28"
-/>
+          src="/JYTlogo-removebg-preview.png"
+          alt="HERC Logo"
+          width={180}
+          height={90}
+          layout="fixed"
+          className="w-auto h-20 md:h-24 lg:h-28"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -78,7 +78,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="tel:+51999999999"
+                href="tel:+51999479036"
                 className="flex items-center gap-2 text-lg font-medium text-primary"
                 onClick={() => setIsOpen(false)}
               >
