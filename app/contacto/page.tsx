@@ -72,7 +72,7 @@ export default function ContactoPage() {
                 </div>
                 <h3 className="mb-2 text-xl font-bold">Teléfono</h3>
                 <p className="mb-4 text-muted-foreground">Llámanos para una atención inmediata</p>
-                <a href="tel:+51999479036" className="text-primary hover:underline">
+                <a href="tel:+51976307376" className="text-primary hover:underline">
                   +51 999 479 036
                 </a>
               </CardContent>
