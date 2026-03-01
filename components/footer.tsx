@@ -91,7 +91,7 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0" />
                 <Link href="tel:+51999479036" className="hover:text-white/80">
-                +51 999 479 036
+                +51 976 307 376
                 </Link>
               </li>
               
